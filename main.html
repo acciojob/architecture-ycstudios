@@ -1,15 +1,99 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Information</title>
+    <style>
+        body {
+            width: 1100px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .imageContainer {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table td:first-child,
+        table td:last-child {
+            width: 200px;
+        }
+
+        table td:nth-child(2) {
+            width: 600px;
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Title Section -->
+    <h1>Architectural Information</h1>
+    <p>Welcome to our architectural information page where we showcase some of the iconic architectural structures from
+        around the world.</p>
+
+    <!-- Image Container -->
+    <div class="imageContainer">
+        <img src="/mnt/data/image.png" alt="Architectural Image">
+    </div>
+
+    <!-- Table of Architectural Information -->
+    <table border="1">
+        <!-- First Row -->
+        <tr>
+            <td><img src="/mnt/data/image.png" alt="Image 1"></td>
+            <td>
+                <h2>Architectural Structure 1</h2>
+                <p>This structure is known for its innovative design, combining both functionality and aesthetics. It was
+                    built to serve as a landmark for modern architectural trends.</p>
+            </td>
+            <td><img src="/mnt/data/image.png" alt="Image 2"></td>
+        </tr>
+
+        <!-- Second Row -->
+        <tr>
+            <td><img src="/mnt/data/image.png" alt="Image 3"></td>
+            <td>
+                <h2>Architectural Structure 2</h2>
+                <p>This iconic building stands as a testament to classical architecture. With its well-planned design and
+                    durable materials, it remains one of the most admired landmarks today.</p>
+            </td>
+            <td><img src="/mnt/data/image.png" alt="Image 4"></td>
+        </tr>
+    </table>
 
 </body>
 
